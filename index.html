@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description">
+    <meta name="keywords">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Atlus | Persona 3 Reload</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header id="cabecera">
+    <a href="#inicio" class="logo">ATLUS</a>
+    <nav id="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#info">Info</a>
+      <a href="#ediciones">Ediciones</a>
+      <a href="#trailer">Tráiler</a>
+    </nav>
+  </header>
+
+  <main id="principal">
+
+    <section id="inicio">
+      <span class="etiqueta">LANZAMIENTO · 2 FEB 2024</span>
+      <h1>PERSONA <span>3 RELOAD</span></h1>
+      <p>La historia de Persona 3 reconstruida desde cero con gráficos
+         modernos, nuevo combate y banda sonora renovada.</p>
+      <a href="https://www.atlus.com" class="boton" target="_blank" rel="noopener">VER EN ATLUS</a>
+    </section>
+
+    <section id="info">
+      <div class="caja izq">
+        <h2>Sobre el juego</h2>
+        <p>Un grupo de estudiantes descubre la Hora Oscura y debe enfrentar
+           a las Sombras con el poder de sus Personas.</p>
+      </div>
+      <div class="caja der">
+        <h2>Plataformas</h2>
+        <p>PS5 / PS4</p>
+        <p>Xbox Series X|S - Xbox One</p>
+        <p>PC (Steam)</p>
+      </div>
+      <div class="limpiar"></div>
+    </section>
+    <section id="ediciones">
+         <h2>Ediciones</h2>
+        <div class="ediciones-lista">
+            <article class="edicion">
+            <img src="imagenes/p3r-estandar.jpg" alt="Portada Persona 3 Reload Estándar">
+            <h3>Estándar</h3>
+            <p>El juego base completo.</p>
+            <a href="https://store.steampowered.com/app/2161700/Persona_3_Reload/" target="_blank" rel="noopener">VER EN STEAM</a>
+            </article>
+
+            <article class="edicion">
+            <img src="imagenes/p3r-deluxe.jpg" alt="Portada Persona 3 Reload Digital Deluxe">
+            <h3>Digital Deluxe</h3>
+            <p>Juego base, artbook digital (64 páginas) y banda sonora digital.</p>
+            <a href="https://store.steampowered.com/app/2161700/Persona_3_Reload/" target="_blank" rel="noopener">VER EN STEAM</a>
+            </article>
+
+            <article class="edicion">
+            <img src="imagenes/p3r-premium.jpg" alt="Portada Persona 3 Reload Digital Premium">
+            <h3>Digital Premium</h3>
+            <p>Todo lo de Deluxe más un pack de trajes y Personas de P4G y P5R.</p>
+            <a href="https://store.steampowered.com/app/2161700/Persona_3_Reload/" target="_blank" rel="noopener">VER EN STEAM</a>
+            </article> 
+         </div>
+    </section>
+    <section id="trailer">
+        <h2>Tráiler oficial</h2>
+        <iframe width="560" 
+             height="315" 
+             src="https://www.youtube.com/embed/DG_gy1Tecco?si=28FNBJBttn4vhWXA" 
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen>
+        </iframe>
+    </section>
+
+  </main>
+
+<input type="checkbox" id="ocultar-musica" class="check-oculto">
+<aside class="reproductor">
+    <label for="ocultar-musica" class="btn-musica" title="Ocultar / mostrar"></label>
+    <div class="reproductor-contenido">
+    <div class="vinilo"></div>
+         <div>
+            <span class="etiqueta">NOW PLAYING</span>
+            <audio controls src="audio/Color Your Night.mp3"></audio>
+         </div>
+    </div>
+</aside>
+
+  <footer id="pie">
+    <p>Diseño Web Examen Parcial - Mijail Diaz Leon / La saga Persona es propiedad de Atlus/Sega</p>
+  </footer>
+
+</body>
+</html>
